@@ -1,0 +1,391 @@
+.head {
+    background-color: rgb(237, 237, 237);
+    height: 270px;
+}
+
+h1 {
+    color: rgb(48, 119, 211);
+    font-size: 50px;
+    font-family: sans-serif;
+    margin-left: 350px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.head p {
+    font-family: sans-serif;
+    margin-left: 350px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.head button {
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: rgb(48, 119, 211);
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    margin-left: 60%;
+}
+
+.head button:hover {
+    background-color: #6fc5ff;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+}
+
+.head button:active {
+    background-color: #3d94cf;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+}
+
+.head a {
+    text-decoration: none;
+    color: white;
+    text: Bold;
+    font-size: 15px;
+}
+
+.dev img {
+    width: 100%;
+    height: 520px;
+}
+
+.dev {
+    position: relative;
+        text-align: center;
+        color: white;
+}
+
+.web {
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: sans-serif;
+        font-size: 30px;
+        text:Bold;
+}
+
+.about {
+    background-color: rgb(48, 119, 211);
+    height: 700px;
+}
+
+.about h3 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 50px;
+    margin-left: 20%;
+}
+
+.fast {
+    /* border: 1px solid whitesmoke; */
+}
+
+.fast img {
+    float: left;
+    height: 180px;
+    margin-left: 15%;
+}
+
+.fast h2 {
+    font-family:sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-left: 30%;
+}
+
+.fast p {
+    font-family: sans-serif;
+    font-size: 20px;
+    color:white;
+    margin-left: 30%;
+}
+
+.best {
+    /* border: 1px solid whitesmoke; */
+}
+
+.best img{
+    float: left;
+    width: 170px;
+    margin-top: 200px;
+    margin-left: -150px;
+}
+
+.best h2 {
+    font-family: sans-serif;
+    font-size: 0.1px;
+    color: white;
+}
+
+.best p {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-left: 30%;
+    margin-top: 260px;
+}
+
+.price {
+    /* border-top: 0.5px solid whitesmoke; */
+}
+
+.price i {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 20%;
+}
+
+.bidguk h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: rgb(42, 42, 42);
+    margin-left: 18%;
+}
+
+.bidguk p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(123, 123, 123);
+    font-size: 25px;
+    margin-left: 2%;
+}
+
+.bidg1 {
+    border: 1px solid rgb(161, 161, 161);
+    width: 800px;
+    margin-left: 18%;
+    height: 120px;
+}
+
+.bidg2 {
+    border: 1px solid rgb(161, 161, 161);
+        width: 800px;
+        margin-left: 18%;
+        height: 120px;
+        margin-top: 70px;
+}
+
+.sati h3 {
+    margin-left: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: rgb(53, 56, 70);
+    margin-top: 100px;
+}
+
+.static h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    color: rgb(53, 56, 70);
+    margin-left: 18%;
+}
+
+.static {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    gap: -10px;
+}
+
+.firstsec h3 {
+    margin-left: 50%;
+}
+
+.secondsec {
+    margin-left: 6%;
+}
+
+.thirdsec {
+    margin-left: 6%;
+}
+
+.static p {
+    margin-left: 18%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: rgb(123, 123, 123);
+    margin-top: 10px;
+}
+
+.firstsec p {
+    margin-left: 50%;
+}
+
+.thirdsec p {
+    margin-left: 10px;
+}
+
+.client button {
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: rgb(48, 119, 211);
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    margin-top: 90px;
+    margin-left: 80%;
+}
+
+.client button:hover {
+    background-color: #6fc5ff;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+}
+
+.client button:active {
+    background-color: #3d94cf;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+}
+
+.client a {
+    text-decoration: none;
+    color: white;
+    text: Bold;
+    font-size: 15px;
+}
+
+.client {
+    height: 200px;
+}
+
+.body {
+    background-color: rgb(31, 31, 31);
+}
+
+.kate img {
+    width: 294.94px;
+    height:387.04;
+    margin-left: 30%;
+}
+
+.oleh img {
+    width: 294.94px;
+    height: 387.04;
+}
+
+.andy img {
+    width: 294.94px;
+    height: 387.04;
+    margin-left: -140%;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+}
+
+.kate h2 {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30%;
+}
+
+.kate p {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30%;
+}
+
+.oleh h2 {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.andy h2 {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -140%;
+}
+
+.oleh p {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1%;
+}
+
+.andy p {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -140%;
+}
+
+.h1 h1 {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10%;
+}
+
+.andy {
+    margin-left: 43%;
+}
+
+.oleh {
+    margin-left: 22%;
+}
+
+.kate {
+    margin-left: auto;
+}
+
+.button button {
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: rgb(255, 221, 0);
+    color: #010101;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+.button button:hover {
+    background-color: #f1ee35;
+    box-shadow: 0 0 20px #f0ff4e50;
+    transform: scale(1.1);
+}
+
+.button button:active {
+    background-color: #3d94cf;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+}
+
+.button a {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.white {
+    background-color: #ffffff;
+    height: 120px;
+}
+
+.white h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: rgb(53, 56, 70);
+    margin-left: 10%;
+}
